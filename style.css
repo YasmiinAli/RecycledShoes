@@ -1,0 +1,409 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+body {
+  color: black;
+}
+img{
+    width: 100%;
+}
+p {
+    color: rgb(175, 170, 170);
+    letter-spacing: 0.5;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;}
+::selection {
+  background-color: rgb(175, 170, 170);
+  color: wheat;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.offer {
+  background-color: #f1f1ef;
+  padding: 10px;
+  text-align: center;
+  color: gray;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.navBar ul li a {
+  color: gray;
+  font-weight: bold;
+}
+.navBar ul li {
+  margin-right: 15px;
+}
+.bgimg {
+  background-image: url('./images/recycled-shoe-store-hero-image-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.bgimg h2 {
+  font-size: 70px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+.buttons {
+  display: flex;
+  margin-top: 50px;
+}
+.buttons .btn {
+  width: 20%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid white;
+  margin-right: 25px;
+  text-align: center;
+}
+.buttons .btn a {
+  color: gray;
+}
+.logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(175, 170, 170);
+}
+.logos p {
+  letter-spacing: 1px;
+  align-self: center;
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+  margin-bottom: 50px;
+}
+
+.aboutcontent h5 {
+    color: #f6aa66;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.aboutcontent h2 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.aboutcontent p {
+    color: rgb(175, 170, 170);
+    letter-spacing: 0.5;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.aboutbtn a {
+    color: rgb(77, 77, 77);
+    border-bottom:  2px solid #f6aa66;
+    padding-bottom: 5px;
+}
+.aboutbtn :hover{
+    border-color: rgb(77, 77, 77);
+    transition: all 2s;
+}
+.bestseller .headline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+} 
+.bestseller h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
+.bestimg {
+    position: relative;
+}
+.sale{
+position: absolute;
+top: -5%;
+right: -5%;
+background-color: #6e7051;
+border-radius: 50%;
+color: white;
+padding: 10px;
+font-size: 18px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 25px;
+    margin-top: 50px;
+    row-gap: 30px;
+    margin-bottom: 50px;
+}
+.card {
+    text-align: center;
+}
+.card .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.price, .rate {
+    color: rgb(175, 170, 170);
+    margin-bottom: 5px;
+}
+.besforesale {
+    text-decoration: line-through;
+}
+.twoimages {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+.womenimg {
+    background-image: url('./images/recycled-shoe-store-shop-women-image-tumbnail.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.menimg {
+    background-image: url('./images/recycled-shoe-store-shop-men-image-thumbnail.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.recycled {
+    width: 90%;
+    margin:50px auto ;
+    height: 70vh;
+    background-color: #f1f1ef;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 50px;
+}
+.recycledimg {
+    border-radius: 50%;
+    border: 2px  dotted rgb(77, 77, 77);
+    width: 50%;
+    align-self: center;
+}
+.badge {
+margin-right: 15px;}
+.recycledimages {
+    display: flex;
+    justify-content: space-around;
+} 
+.reviews {
+    margin-top: 50px;
+}
+.reviews h2 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.reviews .reviewcards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    margin: 50px 0;
+}
+.reviews .reviewcard {
+    border: 1px solid rgb(175, 170, 170);
+    padding: 15px;
+}
+.rate {
+    color: #f6aa28;
+    margin: 10px 0;
+}
+.customer {
+    display: flex;
+    margin-top: 20px;
+}
+.customer img {
+    border-radius: 50%;
+}
+.customer p {
+        margin-left: 10px;
+        text-transform: uppercase;
+}
+.betterpeople {
+    background-image: url('./images/recycled-shoe-store-cta-image-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.betterpeople h2 {
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.betterpeople p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.betterbuttons {
+    display: flex;
+}
+.betterbuttons .betterbtn a {
+    color: black;
+    font-weight: bold;
+    background-color: #fbfbf9;
+    border: 1px solid #fbfbf9;
+    padding: 20px 25px;
+    margin: 50px 15px 0  0;
+    cursor: pointer;
+}
+.betterbuttons .betterbtn a:hover {
+    background-color: rgb(77, 77, 77);
+    transition: all 2s;
+    color: white;
+} 
+
+.items {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+    margin-bottom: 50px;
+}
+.items span {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+
+.item i {
+    margin-right: 5px;
+}
+
+.footer {
+        border-top: 1px solid rgb(221, 220, 220);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px 0px;
+  column-gap: 80px;
+}
+.footer a,
+.footericons {
+  color: rgb(156, 153, 153);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.footericons i {
+  margin-right: 20px;
+}
+.footer h5 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.footerlogo {
+  margin-bottom: 50px;
+}
+ .footerlinks {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.copyright {
+  border-top: 1px solid rgb(156, 153, 153);
+  padding: 50px;
+  background-color: #f1f1ef;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.copyright p{
+    font-size: 14px;
+}
+.copyright img {
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+    .twoimages {
+    grid-template-columns: repeat(1,1fr);
+}
+  .links,
+  .cart {
+    display: none;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .buttons .btn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  .about, .headline,.cards,.recycled,.reviews .reviewcards,.items {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+  }
+  .aboutcontent h2 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .aboutcontent p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .bestseller .headline{
+    flex-direction: column;
+  }
+  .betterpeople {
+    text-align: center;
+    padding: 15px;
+  }
+   .footer,.copyright {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+/* @media screen and (min-width:600px) and (max-width:800px) {
+    .links, .cart {
+        display: none;
+    }
+} */
